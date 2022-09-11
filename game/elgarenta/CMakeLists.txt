@@ -8,6 +8,8 @@ add_subdirectory(raylib)
 
 add_library(elgarenta 
     src/test.c
+    src/window.c
+    src/screen.c
 )
 target_link_libraries(elgarenta raylib)
 target_include_directories(elgarenta PRIVATE include)
